@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "FloatWaunch Elite",
+  "version": "2.3",
+  "description": "极速悬浮启动器：Q+E序列唤起，本地路径与网页链接一键直达。By fw",
+  "author": "fw",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_title": "显示/隐藏 FloatWaunch"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F"
+      }
+    }
+  }
+}
