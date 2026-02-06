@@ -1,5 +1,5 @@
 # 🚀 FloatWaunch Elite v2.3
-> **网页级悬浮启动器 · 打破浏览器边界** > *Created By fw*（注：使用gemini3.0一同完成
+> **网页级悬浮启动器 · 打破浏览器边界** > *Created By fw*（注：使用gemini3.0协助完成
 
 ![Version](https://img.shields.io/badge/Version-2.3_Elite-black?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
@@ -57,3 +57,4 @@ FloatWaunch/
 ├── setup_fw_pro.py        # 专业版安装器源码
 
 └── README.md              # 项目说明书
+
